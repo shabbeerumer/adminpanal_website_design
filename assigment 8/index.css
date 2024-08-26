@@ -1,0 +1,111 @@
+ul {
+  margin: 0%;
+  padding: 0%;
+}
+
+li {
+  background-color: transparent !important;
+  border: none !important;
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#thisicon {
+  display: inline;
+  border: 1px solid black;
+  padding: 5%;
+  border-radius: 50%;
+  color: white;
+  /* width: 100%;
+  height: 100%; */
+  margin-left: 23%;
+}
+
+#sa.maintext {
+  display: none;
+}
+
+#mybars {
+  display: none;
+}
+
+#main-content {
+  margin-left: 17%;
+}
+
+@media screen and (max-width: 425px) {
+  /* .sidebar {
+    height: 100vh;
+  } */
+
+  .icon1.tchange {
+    margin-right: -27%;
+    /* width: 20px; */
+    /* display: block; */
+    text-align: center;
+    /* font-size: xx-small; */
+  }
+  #sb.a {
+    display: block;
+    width: 72px !important;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+  #sa {
+    display: none;
+  }
+  #sb {
+    display: none;
+  }
+  #myfoam {
+    display: none;
+  }
+  #mybars {
+    display: block;
+  }
+
+  #main-content {
+    margin-left: 0px;
+  }
+
+  #main-content.m {
+    margin-left: 68px !important;
+  }
+}
+
+#sb {
+  position: fixed; /* or absolute if you prefer */
+  top: 0;
+  left: 0;
+  width: 17%; /* Adjust width as needed */
+  height: 100vh;
+}
+
+#sb.a {
+  width: 80px;
+}
+
+#main-content.m {
+  margin-left: 79px;
+}
+
+.icon1.tchange {
+  margin-right: -27%;
+  /* width: 20px; */
+  /* display: block; */
+  text-align: center;
+  /* font-size: xx-small; */
+}
+
+.icon1 h6 {
+  display: inline;
+  text-align: center;
+}
+
+#maini.change {
+  text-align: center;
+}
