@@ -17,7 +17,6 @@ This project is a responsive **Admin Panel** built using HTML, CSS, and Bootstra
     - **Password** input field.
     - **Week** picker.
     - **Datetime-local** picker.
-  - Clean and intuitive design for managing user data input.
 - **Bootstrap Framework**: Uses Bootstrap 5 for styling 
 
 ---
